@@ -1,0 +1,150 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.stlogo {
+    display:inline;
+}
+.cont{
+    text-align: center;
+}
+.li{
+    color: aliceblue; 
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size:xx-large;
+    padding: 10px;
+
+}
+.follow { 
+    display: flex;
+    padding: 0% 30px;
+    border: none;
+
+
+}
+.saber {
+    display: flex;
+    padding: 0% 40px;
+    border: none;
+
+}
+.Button { 
+    background: aliceblue;
+    color: black;
+    border: 0px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: large;
+}
+.Link {
+    color: black;
+}
+
+.body {
+    font-family: 'Bebas Neue', cursive;
+    background-image: url(https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_960_720.png)
+}
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(66, 65, 65);
+    font-size:large;
+    background-image: url(https://c.wallhere.com/photos/1c/d5/Darth_Vader_Star_Wars_lightsaber_Sith-227073.jpg!d);
+    background-size: cover;
+    justify-content: center;
+    margin: 0%;
+    padding: 10px;
+    width: 100%;
+
+}
+.imginsta {
+    display:inline-block ;
+    border-radius: 100px;
+    width: 35px;
+    height: 35px;
+
+}
+.imgtw {
+    display: inline-block;
+    border-radius: 1000px;
+    width: 35px;
+    height: 35px;
+
+}
+.imgdisney {
+    display: block;
+    border-radius: 2000px;
+    padding-right: 30px;
+    width: 80px;
+    height: 50px;
+
+}
+.imgfbk {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+}
+.rights {
+    display: inline-block;
+    height: 50px;
+}
+.seriesbutt {
+    color: aliceblue;
+}
+.galeriabutt {
+    color: aliceblue;
+}
+.text {
+    color: grey;
+    text-align: center;
+
+}
+.img {
+    display: inline-block;
+}
+#grid {
+    display:grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin: 10px;
+    padding: 10px;
+   
+
+    
+
+}
+@media (min-width: 768px) {
+    #grid {
+        padding: 100px;
+        margin: 10px;
+        grid-template-columns: repeat(2, 2fr);
+    }
+
+}
+@media (min-width: 1280px) {
+    #grid {
+        padding: 100px;
+        margin: 10px;
+        grid-template-columns: repeat(3, 2fr);
+
+    }
+
+}
+
+.img2 {
+    transition: transform 0.5s;
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+   
+}   
+.img2:hover {
+
+    transform: scale(2)
+}
