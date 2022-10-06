@@ -90,6 +90,11 @@
     width: 35px;
     height: 35px;
 }
+.imggithub {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+}
 .rights {
     display: inline-block;
     height: 50px;
