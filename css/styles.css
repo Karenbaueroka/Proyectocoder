@@ -151,6 +151,6 @@
 }   
 .img2:hover {
 
-    transform:rotate(1,2);
+    transform: scale(1);
     padding: 10px;
 }
