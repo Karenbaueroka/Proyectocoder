@@ -83,6 +83,12 @@
     padding-right: 30px;
     width: 80px;
     height: 50px;
+    transition: transform (1s);
+    cursor: pointer;
+
+}
+.imgdisney:hover{
+    transform: rotate(50deg);
 
 }
 .imgfbk {
@@ -99,11 +105,14 @@
     display: inline-block;
     height: 50px;
 }
+
 .seriesbutt {
     color: aliceblue;
+    text-decoration: none;
 }
 .galeriabutt {
     color: aliceblue;
+    text-decoration: none;
 }
 .text {
     color: grey;
