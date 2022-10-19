@@ -1,2 +1,211 @@
+/* line 1, ../proyectocoder/sass/estilos.scss */
+* {
+  margin: 0,1px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* line 6, ../proyectocoder/sass/estilos.scss */
+.stlogo {
+  display: inline;
+}
+
+/* line 9, ../proyectocoder/sass/estilos.scss */
+.cont {
+  text-align: center;
+}
+
+/* line 12, ../proyectocoder/sass/estilos.scss */
+.li {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+/* line 16, ../proyectocoder/sass/estilos.scss */
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  justify-content: space-between;
+  list-style-type: none;
+  font-size: xx-large;
+  padding: 10px;
+}
+
+/* line 26, ../proyectocoder/sass/estilos.scss */
+.follow {
+  display: flex;
+  padding: 0% 30px;
+  border: none;
+}
+
+/* line 33, ../proyectocoder/sass/estilos.scss */
+.saber {
+  display: flex;
+  padding: 0% 40px;
+  border: none;
+}
+
+/* line 39, ../proyectocoder/sass/estilos.scss */
+.Button {
+  background: aliceblue;
+  color: black;
+  border: 0px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: large;
+  height: 50px;
+  width: 60px;
+}
+
+/* line 48, ../proyectocoder/sass/estilos.scss */
+.Link {
+  color: black;
+}
+
+/* line 52, ../proyectocoder/sass/estilos.scss */
+.body {
+  font-family: 'Bebas Neue', cursive;
+  color: aliceblue;
+  background-image: url(https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_960_720.png);
+  padding: 10px;
+}
+
+/* line 58, ../proyectocoder/sass/estilos.scss */
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  color: #424141;
+  font-size: large;
+  background-color: black;
+  background-size: cover;
+  justify-content: center;
+  margin: 0%;
+  padding: 10px;
+  width: 100%;
+}
+
+/* line 71, ../proyectocoder/sass/estilos.scss */
+.imginsta {
+  display: inline-block;
+  border-radius: 100px;
+  width: 35px;
+  height: 35px;
+}
+
+/* line 78, ../proyectocoder/sass/estilos.scss */
+.imgtw {
+  display: inline-block;
+  border-radius: 1000px;
+  width: 35px;
+  height: 35px;
+}
+
+/* line 85, ../proyectocoder/sass/estilos.scss */
+.imgdisney {
+  display: block;
+  border-radius: 2000px;
+  padding-right: 30px;
+  width: 80px;
+  height: 50px;
+  transition: transform 1s;
+  cursor: pointer;
+}
+
+/* line 95, ../proyectocoder/sass/estilos.scss */
+.imgdisney:hover {
+  transform: rotate(50deg);
+}
+
+/* line 99, ../proyectocoder/sass/estilos.scss */
+.imgfbk {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+}
+
+/* line 104, ../proyectocoder/sass/estilos.scss */
+.imggithub {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+}
+
+/* line 109, ../proyectocoder/sass/estilos.scss */
+.rights {
+  display: inline-block;
+  height: 50px;
+}
+
+/* line 114, ../proyectocoder/sass/estilos.scss */
+.seriesbutt {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+/* line 118, ../proyectocoder/sass/estilos.scss */
+.galeriabutt {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+/* line 122, ../proyectocoder/sass/estilos.scss */
+.text {
+  text-align: center;
+}
+
+/* line 126, ../proyectocoder/sass/estilos.scss */
+.img {
+  display: inline-block;
+}
+
+/* line 129, ../proyectocoder/sass/estilos.scss */
+#grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  margin: 10px;
+  padding: 10px;
+}
+
+@media (min-width: 768px) {
+  /* line 141, ../proyectocoder/sass/estilos.scss */
+  #grid {
+    padding: 100px;
+    margin: 10px;
+    grid-template-columns: repeat(2, 2fr);
+  }
+}
+
+@media (min-width: 1280px) {
+  /* line 149, ../proyectocoder/sass/estilos.scss */
+  #grid {
+    padding: 100px;
+    margin: 10px;
+    grid-template-columns: repeat(3, 2fr);
+  }
+}
+
+/* line 158, ../proyectocoder/sass/estilos.scss */
+.img2 {
+  transition: transform 2s;
+  cursor: pointer;
+  width: 100%;
+  height: auto;
+}
+
+/* line 165, ../proyectocoder/sass/estilos.scss */
+.img2:hover {
+  transform: scale(1);
+  padding: 10px;
+}
+
+/* line 170, ../proyectocoder/sass/estilos.scss */
+.contenedor {
+  max-width: 1200px;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  font-size: large;
+}
 
 /*# sourceMappingURL=estilos.css.map */
