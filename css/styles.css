@@ -1,6 +1,5 @@
 *{
     margin:0,1px;
-    padding: 0px;
     box-sizing: border-box;
 }
 .stlogo {
@@ -54,6 +53,7 @@
     color: aliceblue;
     background-image: url(https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_960_720.png);
     padding: 10px;
+
 }
 .footer {
     display: flex;
@@ -169,11 +169,15 @@
     padding: 10px;
 }
 .contenedor {
-    max-width: 1200px;
-    width: 100%;
+    max-width: 800px;
+    width: auto;
+    height: auto;
     background-color: black;
     text-align: center;
     font-size: large;
 
 }
-
+#id {
+    padding-left: 100px;
+    padding-right: 100px;
+}
