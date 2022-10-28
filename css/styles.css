@@ -159,8 +159,8 @@
 .img2 {
     transition: transform 2s;
     cursor: pointer;
-    width: 100%;
-    height: auto;
+    width: 90%;
+    height: 90%;
    
 }   
 .img2:hover {
