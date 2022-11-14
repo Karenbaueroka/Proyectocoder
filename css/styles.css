@@ -175,9 +175,7 @@
     background-color: black;
     text-align: center;
     font-size: large;
+    display: wrap;
+    
+}
 
-}
-#id {
-    padding-left: 100px;
-    padding-right: 100px;
-}
